@@ -6,6 +6,6 @@ sentence_Array.each do |word|
   new_sentence.push(new_word)
   end
   new_string = new_sentence.join(" ")
-  puts new_string
+  return new_string
 end
 
