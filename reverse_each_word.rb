@@ -8,8 +8,9 @@ def reverse_each_word(string)
         end_point -= 1
         new_word += word[end_point]
       end 
+      strArr << new_word
     end 
-  puts new_word
+  puts strArr
  end
 
 reverse_each_word("Hello there, and how are you?")
