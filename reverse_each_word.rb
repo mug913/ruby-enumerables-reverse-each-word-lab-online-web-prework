@@ -9,7 +9,7 @@ def reverse_each_word(string)
         new_word += word[end_point]
       end 
     end 
-  puts strArr
+  puts new_word
  end
 
 reverse_each_word("Hello there, and how are you?")
