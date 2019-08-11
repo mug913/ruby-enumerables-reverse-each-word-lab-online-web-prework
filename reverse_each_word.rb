@@ -1,7 +1,7 @@
 def reverse_each_word(string)
-string_array = []
-string_array << (string.split())
-puts string_array[1] 
+length = string.length
+
+puts length 
 end
 
 reverse_each_word("Hello there, and how are you?")
