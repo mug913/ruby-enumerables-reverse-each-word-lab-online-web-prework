@@ -5,4 +5,4 @@ def reverse_each_word(string)
  puts strArr
 end
 
-reverse
+reverse_each_word("Hello there, and how are you?")
