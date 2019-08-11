@@ -1,5 +1,6 @@
 def reverse_each_word(string)
   strArr = []
+  newStr = []
   strArr.push(string.split(" ").reverse!)
   strArr.each do |word|
     end_point = word.length 
@@ -8,9 +9,9 @@ def reverse_each_word(string)
         end_point -= 1
         new_word += word[end_point]
       end 
-      strArr << new_word
+      newStr << new_word
     end 
-  puts strArr
+  puts newStr
  end
 
 reverse_each_word("Hello there, and how are you?")
