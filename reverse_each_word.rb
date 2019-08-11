@@ -5,4 +5,5 @@ def reverse_each_word(string)
   revArr.push(strArr.reverse_each)
   puts strArr
   puts revArr
+  p "1"
 end
