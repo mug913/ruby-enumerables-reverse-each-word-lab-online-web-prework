@@ -2,7 +2,7 @@ def reverse_each_word(string)
   strArr = []
   revArr = []
   strArr.push(string.split(" "))
-  revArr.push(strArr.reverse!)
+  revArr.push(reverse(strArr))
   puts strArr
   puts revArr
 end
