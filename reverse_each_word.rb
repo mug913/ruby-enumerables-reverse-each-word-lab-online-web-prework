@@ -3,5 +3,5 @@ def reverse_each_word(string)
   revArr = []
   strArr.push(string.split(" "))
   strArr.reverse_each
-  return revArr[0]
+  puts revArr[0]
 end
