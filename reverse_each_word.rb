@@ -1,4 +1,5 @@
 def reverse_each_word(string)
+new_sentence = []
 sentence_Array = string.split(' ')
 sentence_Array.each do |word|
   i = 0
