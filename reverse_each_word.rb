@@ -9,4 +9,3 @@ sentence_Array.each do |word|
   puts new_string
 end
 
-reverse_each_word("Hello there, and how are you?")
